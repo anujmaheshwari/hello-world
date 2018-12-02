@@ -1,5 +1,5 @@
 <?php
 
-echo 'Company Info Index.php1';
+echo 'Company Info Index.php21';
 
 ?>
