@@ -1,4 +1,4 @@
 <?php
 
 
-echo 'Rating Testing.php';
+echo 'Rating Tes123ting.php';
