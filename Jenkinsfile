@@ -1,9 +1,23 @@
 pipeline {
-    agent { docker { image 'php' } }
+    agent any
+    
     stages {
+        stage('clean') {
+            steps {
+                echo 'cleaning'
+            }
+        }
+        
         stage('build') {
             steps {
-                sh 'php --version'
+                echo 'Building'
+            }
+        }
+        
+        
+        stage('deploy') {
+            steps {
+                echo 'Deploy'
             }
         }
     }
