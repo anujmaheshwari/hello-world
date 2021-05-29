@@ -1,1 +1,5 @@
-asd
+<?php
+
+echo "TestIndex.php file";
+
+?>
